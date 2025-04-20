@@ -6,10 +6,10 @@ public class Alunos implements Comparable<Alunos> {
 //atributos
 
 private String nome;
-private Long matricula;
+private long matricula;
 private double media;
 
-public Alunos(String nome, Long matricula, double media) {
+public Alunos(String nome, long matricula, double media) {
     this.nome = nome;
     this.matricula = matricula;
     this.media = media;
@@ -19,7 +19,7 @@ public String getNome() {
     return nome;
 }
 
-public Long getMatricula() {
+public long getMatricula() {
     return matricula;
 }
 
